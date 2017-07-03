@@ -1,2 +1,37 @@
-# debugger-pointer-segmention-fault
-For new programmers, debugging errors associated with pointers can be a nightmare. "Segmentation Fault (core dumped)" is a pretty vague error message, and it's even worse when strange bugs start appearing that don't cause segmentation faults -- but that result in things like memory getting overwritten in unexpected ways.   But finding problems with pointers is easier than you'd think. Those segfaults often turn out to be among the easiest bugs to find, and using special tools such as Valgrind, even finding buffer overflows is simplified.        This tutorial assumes that you have a basic knowledge of pointers such as can be acquired by reading a pointer tutorial. It would help to be running a system that has a debugger such as GDB, or to at least have sufficient familiarity with GDB-like debuggers to understand the examples presented. Finally, for finding buffer overflows and other invalid uses of memory, you will fare best with Valgrind, though none of the examples will use it.
+## Welcome to GitHub Pages
+
+You can use the [editor on GitHub](https://github.com/madcoder2k17/debugger-pointer-segmention-fault/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+
+Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+
+### Markdown
+
+Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+
+```markdown
+Syntax highlighted code block
+
+# Header 1
+## Header 2
+### Header 3
+
+- Bulleted
+- List
+
+1. Numbered
+2. List
+
+**Bold** and _Italic_ and `Code` text
+
+[Link](url) and ![Image](src)
+```
+
+For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+
+### Jekyll Themes
+
+Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/madcoder2k17/debugger-pointer-segmention-fault/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+
+### Support or Contact
+
+Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
